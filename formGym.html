@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricule-se</title>
+    <link rel="stylesheet" href="gymstyle.css">
+    <link rel="stylesheet" href="imcStyleGym.css">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="fundo2">
+    <div class="container-fluid-lg">
+        <nav class="navbar navbar-expand-lg barra ">
+            <span class="title ml-3"><span class="font1">F</span>ocus <span class="font1">F</span><span
+                    class="font2">itness</span></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-light" id="textoNavbar">
+                <ul class="navbar-nav mr-lg-auto">
+                    <li class="nav-item active ml-5 mt-2 ">
+                        <a class="nav-link links" href="gym.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link links mt-2" href="imcGym.html">Calculadora IMC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link links mt-2" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-dumbbell fa-2x ml-5 peso"></i>
+            </div>
+        </nav>
+    </div>
+
+    <form class="m-lg-5">
+        <h4 style="text-align: center; margin-bottom:40px;">Matricule-se agora e ganhe o 1º mês <span style="text-transform:uppercase; color:#aa0909 ;">grátis</span></h4>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="inputEmail4">Nome</label>
+            <input type="text" class="form-control" id="nome" required placeholder="Digite o seu nome completo">
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="inputEmail4">CPF</label>
+            <input type="cpf" class="form-control" id="cpf" required placeholder="Digite o seu CPF">
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="fone">Telefone</label>
+            <input type="phone" class="form-control" id="cpf" required placeholder="Digite o seu telefone">
+        </div>
+        <div class="form-check-label col-md-6 mx-auto">
+            <label class="textoForm" for="radioGen">Gênero:</label><br>
+            <input type="radio" name="radioGen" value="F"required>Feminino
+            <input type="radio" name="radioGen" value="M"required>Masculino
+            <input type="radio" name="radioGen" value="O"required>Outro<br><br>
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="inputAddress2">Data de nascimento</label>
+            <input type="date" class="form-control" id="datanascimento" required>
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="inputPassword4">E-mail</label>
+            <input type="email" class="form-control" id="email" required placeholder="Digite o seu e-mail">
+        </div>
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label class="textoForm" for="inputAddress">Endereço</label>
+            <input type="text" class="form-control" id="endereço" required placeholder="Digite o seu endereço completo">
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <form>
+                <div class="form-row">
+                    <div class="col-7">
+                        <label class="textoForm" for="cidade">Cidade</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label class="textoForm" for="estado">Estado</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label class="textoForm" for="cep">CEP</label>
+                        <input type="cep" class="form-control">
+                    </div>
+                </div>
+            </form>
+    </form>
+    </div>
+
+    <h4
+        style="text-align: center; color:black; font-family: Arial, Helvetica, sans-serif; margin-bottom: 30px; text-transform: uppercase;">
+        Escolha as modalidades que você deseja fazer</h3>
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm">
+                    <img src="https://treinomestre.com.br/wp-content/uploads/2018/03/dicas-de-musculcao.jpg"
+                        class="personal2 ">
+                    <p class="card-text text-center text-uppercase text-dark mt-3"><input class="form-check-input"
+                            type="checkbox">Musculação</p>
+                </div>
+                <div class="col-sm">
+                    <img src="https://conteudo.imguol.com.br/c/entretenimento/28/2020/08/13/natacao-nadadora-mulher-piscina-1597344669197_v2_1x1.jpg"
+                        class="personal2">
+                    <p class="card-text text-center text-uppercase text-dark mt-3"><input class="form-check-input"
+                            type="checkbox">Natação</p>
+                </div>
+                <div class="col-sm">
+                    <img src="https://www.vittude.com/blog/wp-content/uploads/como-yoga-contribui-para-sua-saude-mental-min-1200x900.jpeg"
+                        class="personal2">
+                    <p class="card-text text-center text-uppercase text-dark mt-3"><input class="form-check-input"
+                            type="checkbox">Yoga</p>
+                </div>
+                <div class="col-sm">
+                    <img src="https://nucleoalma.com.br/wp-content/uploads/2021/09/pilates-para-coluna.jpg"
+                        class="personal2">
+                    <p class="card-text text-center text-uppercase text-dark mt-3"><input class="form-check-input"
+                            type="checkbox">Pilates</p>
+                </div>
+                <div class="col-sm">
+                    <img src="https://sopacultural.com/wp-content/uploads/2022/01/danca-e1643310597668.jpg"
+                        class="personal2">
+                    <p class="card-text text-center text-uppercase text-dark mt-3"><input class="form-check-input"
+                            type="checkbox">Ballet</p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="botao mx-auto">Me tornar aluno</button>
+        
+
+
+
+
+
+
+
+
+        <div class="container-fluid-lg">
+            <footer>
+                <div class="icones">
+                    <i class="fa-brands fa-square-facebook fa-3x peso m-1 icone"></i>
+                    <i class="fa-brands fa-square-instagram fa-3x peso m-1 icone"></i>
+                    <i class="fa-brands fa-square-whatsapp fa-3x peso m-1 icone"></i>
+                    <i class="fa-solid fa-square-envelope fa-3x peso m-1 icone"></i>
+                    <p class="m-1">Contato: focusfit@focus.com.br</p>
+                    <span><br><br><br><br>Todos os direitos reservados @Alech</span>
+            </footer>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.personal2{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    padding: 5px;
+    background: #aa0909;
+
+}
+.personal2:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    background: transparent;
+    box-shadow: 0 0 5px black;
+}
+.botao{
+    display: flex;
+    background: #aa0909;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 80px;
+    align-items: center;
+    
+}
+.botao:hover{
+    background: #089108;
+    box-shadow: 0 0 10px #089108;
+}
+.textoForm{
+    color: black;
+    font-weight: bold;
+}
